@@ -11,7 +11,7 @@ body {
 }
 
 .input-area{
-    background-image: url(/tip-calculator-app-main/images/icon-dollar.svg);
+    background-image: url(tip-calculator-app-main/images/icon-dollar.svg);
     background-repeat: no-repeat;
    
     
@@ -19,7 +19,7 @@ body {
 
 }
 .num-of-people{
-    background-image: url(/tip-calculator-app-main/images/icon-person.svg);
+    background-image: url(tip-calculator-app-main/images/icon-person.svg);
     background-repeat: no-repeat;
     width: 96%;
     background-position: 10px 50%;
