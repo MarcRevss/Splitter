@@ -1,0 +1,85 @@
+    <html>
+        <head>
+            <title> Splitter</title>
+            <meta charset="utf-8" />
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap" rel="stylesheet">       
+            <link rel="Stylesheet" href="style.css" />
+            <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+           
+
+            </head>
+<body>
+    <div class = "container">      
+  
+
+    <div  class="logo-splitter"> <img
+       
+        src  = "/tip-calculator-app-main/images/logo.svg" />
+    </div>
+ 
+<div class = "outer-calculator-box">
+    <div class = "inside-container">
+        <div class="leftright">
+    <div class="left-bar">
+        <div class="Bill" > 
+        <p> Bill</p>
+        <input type="number" id="bill-amount" class="input-area"  >
+        </div>
+        
+        <div class="select-tip">
+            <p class ="stip-text"> Select Tip %</p>
+            
+            <input type="button"  value= "5%" class = "default-value">
+            <input type="button"  value="10%" class = "default-value"> 
+            <input type="button"  value="15%" class = "default-value">
+            <input type="button"  value="25%" class = "default-value">
+            <input type="button"  value="50%" class = "default-value">
+            <input type="number"  class = "custom-value" placeholder="Custom " id = "custom-value">
+        </div>
+        <div class ="number-of-people">
+            <p> Number of People</p>
+            <input type="number" id="numberOfpeople" class="num-of-people">
+        </div>
+        
+
+
+        </div>
+    <div class="right-bar">
+       <div class ="output-box">
+        <div class = "tip-amount">
+           
+            <h3 class="textinrightbar">Tip Amount
+                <p class ="minperons">/person</p>
+            </h3>
+            <output class ="styleofoutput" id="tipperperson">0$</output>
+        </div>
+
+        <div class = "tip-amount2">
+                 <h3 class="textinrightbar">   Total    
+                <p class ="minperons">/person</p>
+            </h3>
+            <output class ="styleofoutput" id="tiptotalperson">0$</output>
+        </div>
+        </div>
+
+    
+    <div class="button-box">
+        <button class="button-reset" id="buttonReset"> RESET</button>
+    </div>
+</div>
+
+
+
+
+</div>
+
+    </div>
+</div>
+</div>    
+</div>
+
+<script src="script.js"></script>
+</body>
+    </html>
