@@ -49,8 +49,8 @@ for (let i = 0; i < defaultAmountEl.length; i++)
         billAmountEl.value = ""; 
         customAmountEl.value = "";
         numberOfPeopleEl.value = "";
-        totalAmountEl.value = "0$";
-        tipPerPersonEl.value = "0$";
+        totalAmountEl.value = "0.00$";
+        tipPerPersonEl.value = "0.00$";
 
         resetButtonColors()
     })
